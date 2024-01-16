@@ -1,0 +1,79 @@
+@mixin clickable () {
+    @include no-select();
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+@mixin no-select () {
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+@mixin no-wrap () {
+    white-space: nowrap;
+}
+
+@mixin ellipsis () {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+@mixin ellipsis-columns ($columns) {
+    display: -webkit-box;
+    -webkit-line-clamp: $columns;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+}
+
+@mixin blur-shadow ($radius, $color) {
+    text-shadow: 0px 0px $radius $color;
+}
+
+@mixin text-border ($radius, $color) {
+    text-shadow: $color $radius $radius 0, $color 0-$radius $radius 0, $color $radius 0-$radius 0, $color 0-$radius 0-$radius 0;
+}
+
+@mixin scrollbar-thin ($thumb-color, $bg-color) {
+    scrollbar-color: $thumb-color $bg-color;
+    scrollbar-width: thin;
+
+    &::-webkit-scrollbar {
+        width: 8px;
+        background-color: $bg-color;
+    }
+    &::-webkit-scrollbar-thumb {
+        background-color: $thumb-color;
+    }
+}
+
+@mixin scrollbar-thin-std () {
+    scrollbar-width: thin;
+
+    &::-webkit-scrollbar {
+        width: 8px;
+    }
+}
+
+@mixin flex-std ($gap: 0) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: $gap;
+}
+
+@mixin glow ($thickness, $spread, $color) {
+    -webkit-box-shadow: 0px 0px $spread $thickness $color;
+    -moz-box-shadow: 0px 0px $spread $thickness $color;
+    box-shadow: 0px 0px 8px $spread $thickness $color;
+}
+
+@mixin center-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

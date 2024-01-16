@@ -1,0 +1,212 @@
+{
+    "argentina": {
+        "display_name": "Argentina",
+        "continent": "south_america",
+        "region": "south_america"
+    },
+    "armenia": {
+        "display_name": "Armenia",
+        "continent": "europe",
+        "region": "caucasus"
+    },
+    "australia": {
+        "display_name": "Australia",
+        "continent": "australia",
+        "region": "oceania"
+    },
+    "austria": {
+        "display_name": "Austria",
+        "continent": "europe",
+        "region": "western_europe"
+    },
+    "azerbaijan": {
+        "display_name": "Azerbaijan",
+        "continent": "europe",
+        "region": "caucasus"
+    },
+    "bahrain": {
+        "display_name": "Bahrain",
+        "continent": "asia",
+        "region": "middle_east"
+    },
+    "belgium": {
+        "display_name": "Belgium",
+        "continent": "europe",
+        "region": "western_europe"
+    },
+    "brazil": {
+        "display_name": "Brazil",
+        "continent": "south_america",
+        "region": "south_america"
+    },
+    "canada": {
+        "display_name": "Canada",
+        "continent": "north_america",
+        "region": "north_america"
+    },
+    "china": {
+        "display_name": "China",
+        "continent": "asia",
+        "region": "south_east_asia"
+    },
+    "eu": {
+        "display_name": "Europe",
+        "continent": "europe",
+        "region": "western_europe"
+    },
+    "european_union": {
+        "display_name": "European Union",
+        "continent": "europe",
+        "region": "western_europe"
+    },
+    "finland": {
+        "display_name": "Finland",
+        "continent": "europe",
+        "region": "western_europe"
+    },
+    "france": {
+        "display_name": "France",
+        "continent": "europe",
+        "region": "western_europe"
+    },
+    "germany": {
+        "display_name": "Germany",
+        "continent": "europe",
+        "region": "western_europe"
+    },
+    "greece": {
+        "display_name": "Greece",
+        "continent": "europe",
+        "region": "eastern_europe"
+    },
+    "hungary": {
+        "display_name": "Hungary",
+        "continent": "europe",
+        "region": "eastern_europe"
+    },
+    "iceland": {
+        "display_name": "Iceland",
+        "continent": "europe",
+        "region": "western_europe"
+    },
+    "india": {
+        "display_name": "India",
+        "continent": "asia",
+        "region": "south_east_asia"
+    },
+    "ireland": {
+        "display_name": "Ireland",
+        "continent": "europe",
+        "region": "western_europe"
+    },
+    "iran": {
+        "display_name": "Iran",
+        "continent": "asia",
+        "region": "middle_east"
+    },
+    "italy": {
+        "display_name": "Italy",
+        "continent": "europe",
+        "region": "western_europe"
+    },
+    "japan": {
+        "display_name": "Japan",
+        "continent": "asia",
+        "region": "south_east_asia"
+    },
+    "malaysia": {
+        "display_name": "Malaysia",
+        "continent": "asia",
+        "region": "south_east_asia"
+    },
+    "mexico": {
+        "display_name": "Mexico",
+        "continent": "north_america",
+        "region": "north_america"
+    },
+    "monaco": {
+        "display_name": "Monaco",
+        "continent": "europe",
+        "region": "western_europe"
+    },
+    "morocco": {
+        "display_name": "Morocco",
+        "continent": "africa",
+        "region": "north_africa"
+    },
+    "netherlands": {
+        "display_name": "Netherlands",
+        "continent": "europe",
+        "region": "western_europe"
+    },
+    "poland": {
+        "display_name": "Poland",
+        "continent": "europe",
+        "region": "western_europe"
+    },
+    "portugal": {
+        "display_name": "Portugal",
+        "continent": "europe",
+        "region": "western_europe"
+    },
+    "qatar": {
+        "display_name": "Qatar",
+        "continent": "asia",
+        "region": "mid"
+    },
+    "russia": {
+        "display_name": "Russia",
+        "continent": "europe",
+        "region": "eastern_europe"
+    },
+    "saudi_arabia": {
+        "display_name": "Saudi Arabia",
+        "continent": "asia",
+        "region": "middle_east"
+    },
+    "singapore": {
+        "display_name": "Singapore",
+        "continent": "asia",
+        "region": "south_east_asia"
+    },
+    "south_korea": {
+        "display_name": "South Korea",
+        "continent": "africa",
+        "region": "south_east_asia"
+    },
+    "spain": {
+        "display_name": "Spain",
+        "continent": "europe",
+        "region": "western_europe"
+    },
+    "sweden": {
+        "display_name": "Sweden",
+        "continent": "europe",
+        "region": "western_europe"
+    },
+    "turkey": {
+        "display_name": "Turkey",
+        "continent": "europe",
+        "region": "eastern_europe"
+    },
+    "ukraine": {
+        "display_name": "Ukraine",
+        "continent": "europe",
+        "region": "eastern_europe"
+    },
+    "united_arab_emirates": {
+        "display_name": "United Arab Emirates",
+        "continent": "asia",
+        "region": "middle_east"
+    },
+    "united_kingdom": {
+        "display_name": "United Kingdom",
+        "continent": "europe",
+        "region": "western_europe"
+    },
+    "united_states": {
+        "display_name": "United States",
+        "continent": "north_america",
+        "region": "north_america"
+    }
+}

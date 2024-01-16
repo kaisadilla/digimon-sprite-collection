@@ -1,0 +1,27 @@
+@font-face {
+    font-family: "Formula 1";
+    font-style: normal;
+    font-weight: 400;
+    src: url("formula1/FORMULA1-REGULAR.TTF");
+}
+
+@font-face {
+    font-family: "Formula 1";
+    font-style: normal;
+    font-weight: 600;
+    src: url("formula1/FORMULA1-BOLD.TTF");
+}
+
+@font-face {
+    font-family: "Formula 1";
+    font-style: normal;
+    font-weight: 800;
+    src: url("formula1/FORMULA1-BLACK.TTF");
+}
+
+@font-face {
+    font-family: "Formula 1 Wide";
+    font-style: normal;
+    font-weight: 800;
+    src: url("formula1/FORMULA1-WIDE.TTF");
+}

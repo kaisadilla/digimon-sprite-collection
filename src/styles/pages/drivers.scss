@@ -1,0 +1,14 @@
+@import "../variables.scss";
+@import "../mixins.scss";
+
+.page-drivers {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+
+    height: 100%;
+    overflow: auto;
+}

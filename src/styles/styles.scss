@@ -1,0 +1,36 @@
+@import "fonts/fira-sans";
+@import "fonts/roboto-condensed";
+@import "fonts/rubik";
+
+@import "variables";
+@import "mixins";
+
+@import "root";
+@import "default-table";
+
+@import "components/nav-bar";
+
+$navbar-height: 48px;
+
+.tab-container {
+    position: sticky;
+    height: $navbar-height;
+}
+
+.page-container {
+    overflow: hidden;
+    width: 100vw;
+    height: calc(100vh - #{$navbar-height});
+}
+
+.page {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+
+    height: 100%;
+    overflow: auto;
+}

@@ -1,0 +1,11 @@
+.default-delta {
+    font-size: 10pt;
+
+    &.positive {
+        color: #068b11;
+    }
+    
+    &.negative {
+        color: #d60c0c;
+    }
+}

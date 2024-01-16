@@ -1,0 +1,59 @@
+//#region Colors
+$color-primary-l6: #fcf4f4;
+$color-primary-l5: #fae7e7;
+$color-primary-l4: #f5cece;
+$color-primary-l3: #ffadad;
+$color-primary-l2: #fa746b;
+$color-primary-l1: #f85a4f;
+$color-primary: #f44336;
+$color-primary-d1: #da3232;
+$color-primary-d2: #cf2828;
+$color-primary-d3: #b71c1c;
+$color-primary-d4: #9c1313;
+$color-primary-d5: #630808;
+
+$color-success: #28a745;
+$color-success-highlight: #218838;
+$color-success-highlight-2: #144d20;
+$color-danger: #dc3545;
+$color-danger-highlight: #c82333;
+$color-danger-highlight-2: #7c141e;
+
+$white: #fdfdfd;
+$black: #0e0e0e;
+$gray1: #eee;
+$gray2: #dfdfdf;
+$gray3: #ccc;
+$gray4: #bbb;
+$gray5: #aaa;
+$gray6: #999;
+$gray7: #888;
+$gray8: #777;
+$gray9: #666;
+$gray10: #555;
+$gray11: #444;
+$gray12: #333;
+$gray13: #222;
+$gray14: #111;
+//#endregion Colors
+
+//#region Fonts & weights
+$font-std: "Segoe UI", "Roboto", Arial, Tahoma, Geneva, Verdana, sans-serif;
+$font-mono: "Consolas", "Ubuntu Mono", "Courier New", "Lucida Sans Typewriter", "Courier", monospace;
+$font-anton: 'Anton', sans-serif;
+$font-verdana: Verdana, Geneva, Tahoma, sans-serif;
+$font-fira-sans: 'Fira Sans', sans-serif;
+$font-roboto-cond: 'Roboto Condensed', sans-serif;
+$font-rubik: 'Rubik', sans-serif;
+ 
+// -weights
+$w-thin: 100;
+$w-extralight: 200;
+$w-light: 300;
+$w-regular: 400;
+$w-medium: 500;
+$w-semibold: 600;
+$w-bold: 700;
+$w-black: 800;
+$w-extrablack: 900;
+//#endregion Fonts & weights

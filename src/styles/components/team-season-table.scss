@@ -1,0 +1,152 @@
+@import "../variables.scss";
+@import "../mixins.scss";
+
+.team-season {
+    
+    > h3 {
+        margin: 0;
+        text-align: center;
+        font-size: 20pt;
+        font-weight: $w-semibold;
+        color: $color-primary-d2;
+        border-bottom: 1px solid $color-primary-d2;
+        padding-bottom: 6px;
+        margin-bottom: 6px;
+    }
+}
+
+.team-season-table {
+    border-collapse: collapse;
+    font-size: 12pt;
+    user-select: none;
+
+    thead {
+        height: 32px;
+        font-weight: 600;
+        text-align: center;
+        background-color: white;
+        color: $color-primary-d3;
+
+        tr:hover {
+            cursor: help;
+        }
+    }
+
+    tbody {
+        tr:nth-child(even) {
+            background-color: #ffffff;
+        }
+
+        tr:nth-child(odd) {
+            background-color: #f5f5f5;
+        }
+    }
+
+    .fake-row {
+        height: 6px;
+    }
+
+    .entry {
+        height: 32px;
+        cursor: pointer;
+         // to prevent problems with the :hover border
+        //border-bottom: 1px solid transparent;
+
+        &:hover {
+            background-color: $color-primary-l5;
+            //border-bottom: 1px solid $color-primary-l4;
+
+            .perf-overlay {
+                background-color: $color-primary-l3 !important;
+            }
+        }
+
+        &.highlight {
+            border-top: 1px solid $color-primary;
+            border-bottom: 1px solid $color-primary;
+            border-right: 1px solid $color-primary;
+            //background-color: #ffffff;
+
+            .rank {
+                background-color: $color-primary;
+                color: $white;
+            }
+            //height: 43px; // TODO: Move to code so it's not hardcoded for 12 entries.
+        }
+        
+        &.depress {
+            //background-color: #f5f5f5;
+            > * {
+                opacity: 40%;
+            }
+            //height: 31px; // TODO: Move to code.
+        }
+
+        td {
+            padding: 0 8px;
+        }
+
+        .rank {
+            width: 24px;
+            padding: 0 12px;
+            font-weight: 600;
+            text-align: center;
+        }
+
+        .flag {
+            width: 42px;
+            text-align: center;
+            line-height: 12pt;
+
+            > div {
+                @include center-content();
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+        .delta {
+            width: 32px;
+            text-align: center;
+        }
+
+        .team-name {
+            $gap: 3px;
+            
+            width: 140px;
+            position: relative;
+            
+            .perf-overlay {
+                position: absolute;
+                background-color: $color-primary-l4;
+                height: calc(100% - 2 * $gap);
+                top: $gap;
+                left: $gap;
+                z-index: 10;
+            }
+
+            .name {
+                position: relative;
+                z-index: 20;
+                padding: 0 6px;
+                font-weight: 600;
+
+                &.name.last-year {
+                    color: #8f1500;
+                }
+
+                &.name.new-team {
+                    color: #0a6817;
+                }
+            }
+        }
+
+        .perf {
+            width: 42px;
+            text-align: right;
+            padding: 0 12px;
+            font-style: italic;
+            color: $gray7;
+        }
+    }
+}

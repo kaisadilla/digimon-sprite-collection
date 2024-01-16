@@ -1,0 +1,46 @@
+@import "../mixins";
+
+.navbar {
+    display: grid;
+    grid-template:
+        "log tab" 1fr / 180px 1fr;
+    height: 100%;
+    background-color: $color-primary;
+
+    .logo {
+        @include center-content();
+
+        grid-area: log;
+
+        font-family: "Formula 1";
+        font-size: 24pt;
+        font-weight: $w-black;
+    }
+
+    .tabs {
+        @include center-content();
+
+        grid-area: tab;
+
+        flex-direction: row;
+        gap: 6px;
+        font-size: 12pt;
+        color: $white;
+
+        .tab {
+            @include clickable();
+
+            height: 32px;
+            padding: 6px 12px 3px 12px;
+
+            &:not(.selected):hover {
+                border-bottom: 2px solid $color-primary-d3;
+            }
+
+            &.selected {
+                font-weight: $w-semibold;
+                border-bottom: 2px solid $white;
+            }
+        }
+    }
+}

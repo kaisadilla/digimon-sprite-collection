@@ -1,0 +1,18 @@
+@import "../variables";
+@import "../mixins";
+
+.page-driver-standings {
+}
+
+.driver-standings-season-container {
+    .year {
+        margin: 0;
+        text-align: center;
+        font-size: 20pt;
+        font-weight: $w-semibold;
+        color: $color-primary-d2;
+        border-bottom: 1px solid $color-primary-d2;
+        padding-bottom: 6px;
+        margin-bottom: 6px;
+    }
+}
