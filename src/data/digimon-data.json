@@ -1,0 +1,26 @@
+{
+    "agumon": {
+        "id": "agumon",
+        "displayName": "Agumon",
+        "japaneseName": "アグモン",
+        "year": 1997
+    },
+    "airdramon": {
+        "id": "airdramon",
+        "displayName": "Airdramon",
+        "japaneseName": "エアドラモン",
+        "year": 1997
+    },
+    "angemon": {
+        "id": "angemon",
+        "displayName": "Angemon",
+        "japaneseName": "エンジェモン",
+        "year": 1997
+    },
+    "togemon": {
+        "id": "togemon",
+        "displayName": "Togemon",
+        "japaneseName": "トゲモン",
+        "year": 1999
+    }
+}
