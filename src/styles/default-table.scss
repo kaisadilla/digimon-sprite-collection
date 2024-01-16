@@ -9,7 +9,7 @@
         font-weight: 600;
         text-align: center;
         background-color: white;
-        color: $color-primary-d3;
+        color: $color-primary;
 
         tr:hover {
             cursor: help;
@@ -30,7 +30,7 @@
 
             &:hover {
                 cursor: pointer;
-                background-color: $color-primary-l5;
+                background-color: $color-secondary-l1;
             }
 
             td {

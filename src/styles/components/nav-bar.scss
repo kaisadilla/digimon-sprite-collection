@@ -3,12 +3,16 @@
 .navbar {
     display: grid;
     grid-template:
-        "log tab" 1fr / 180px 1fr;
+        "log tab" 1fr / 320px 1fr;
     height: 100%;
     background-color: $color-primary;
 
     .logo {
         @include center-content();
+
+        img {
+            max-height: 40px;
+        }
 
         grid-area: log;
 
@@ -34,12 +38,13 @@
             padding: 6px 12px 3px 12px;
 
             &:not(.selected):hover {
-                border-bottom: 2px solid $color-primary-d3;
+                border-bottom: 2px solid $white;
             }
 
             &.selected {
                 font-weight: $w-semibold;
-                border-bottom: 2px solid $white;
+                color: $color-secondary;
+                border-bottom: 2px solid $color-secondary;
             }
         }
     }
