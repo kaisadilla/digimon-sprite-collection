@@ -1,0 +1,36 @@
+@import "../variables";
+
+.digimon-list-table {
+    border-collapse: collapse;
+    border: 1px solid #888;
+
+    tr {
+        border: 1px solid #888;
+        text-align: center;
+
+        td:not(:first-child):not(:last-child) {
+            border-left: 1px solid #ccc;
+            border-right: 1px solid #ccc;
+        }
+
+        &:hover {
+            background-color: $color-secondary-l3;
+        }
+    }
+
+    tbody {
+        .group-bandai, .group-toei {
+            img {
+                max-height: 160px;
+            }
+        }
+
+        td {
+            padding: 0 10px;
+
+            &:not(.group-bandai):not(.group-toei) {
+                image-rendering: pixelated;
+            }
+        }
+    }
+}

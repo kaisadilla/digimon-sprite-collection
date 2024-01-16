@@ -8,17 +8,17 @@ const CATEGORIES = {
     Bandai: "bandai",
     Toei: "toei",
     Digivice: "digivice",
-    DigiviceTall: "digivice_tall",
+    DigiviceTall: "digiviceTall",
     Vpet: "vpet",
-    XrosLoader: "xros_loader",
-    Sprites: "sprites",
-    SpritesSmall: "sprites_small",
+    XrosLoader: "xrosLoader",
+    Sprite: "sprite",
+    SpriteSmall: "spriteSmall",
     Icon: "icon",
-    VitalBracelet: "vital_bracelet",
+    VitalBracelet: "vitalBracelet",
 }
 
 const FOLDER_CATEGORIES = {
-    "adventure_02": CATEGORIES.Sprites,
+    "adventure_02": CATEGORIES.Sprite,
     "adventure_02_ow": CATEGORIES.Icon,
     "bandai": CATEGORIES.Bandai,
     "championship": CATEGORIES.Icon,
@@ -26,8 +26,9 @@ const FOLDER_CATEGORIES = {
     "digivice_dtector": CATEGORIES.Digivice,
     "digivice_tall": CATEGORIES.DigiviceTall,
     "digivice_window": CATEGORIES.Digivice,
-    "monster_s": CATEGORIES.SpritesSmall,
-    "story": CATEGORIES.Sprites,
+    "dm_ver_s": CATEGORIES.Icon,
+    "monster_s": CATEGORIES.SpriteSmall,
+    "story": CATEGORIES.Sprite,
     "story_ow": CATEGORIES.Icon,
     "toei": CATEGORIES.Toei,
     "vital_bracelet": CATEGORIES.VitalBracelet,
@@ -67,7 +68,7 @@ function exploreSpriteFolder (folder) {
             json[digimon].images[category] = [];
         }
 
-        json[digimon].images[category].push({folder, fileName});
+        json[digimon].images[category].push({folder, file});
     }
 }
 

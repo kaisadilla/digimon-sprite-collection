@@ -1,3 +1,5 @@
+type AppendableChild = Node | IvyElement | any;
+
 /**
  * The base class of any component in the project. It contains its HTMLElement
  * and a get accessor for it.
@@ -57,9 +59,12 @@ export default class IvyElement {
     /**
      * Appends, in order, all nodes given.
      */
-    appendChildren (...children: (Node | IvyElement | any)[]) {
+    appendChildren (...children: (AppendableChild | AppendableChild[])[]) {
         for (const c of children) {
-            if (c instanceof IvyElement) {
+            if (Array.isArray(c)) {
+                this.appendChildren(...c);
+            }
+            else if (c instanceof IvyElement) {
                 this.element.appendChild(c.element);
             }
             else if (c instanceof Node) {

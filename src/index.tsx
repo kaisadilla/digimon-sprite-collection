@@ -17,7 +17,7 @@ const $tabGallery = $id("tab-gallery");
 const $pageContainer = $id("page-container");
 
 const pages: {[name in Tab]: Page} = {
-    [Tab.List]: new ListPage().setVisible(false),
+    [Tab.List]: new ListPage().setVisible(true),
     [Tab.Gallery]: new GalleryPage().setVisible(false),
 }
 

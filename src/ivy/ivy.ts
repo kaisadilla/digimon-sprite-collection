@@ -1,7 +1,7 @@
 import IvyElement from "./IvyElement";
 
-interface IvyRef<T> {
-    element?: T,
+interface IvyRef {
+    element: IvyElement | null,
 }
 
 export function $new (
@@ -20,7 +20,7 @@ export function $new (
             continue;
         }
         if (p === "ref") {
-            props[p].element = element;
+            props[p].element = $(element);
         }
         else if (p === "style") {
             if (typeof props[p] === "string") {
@@ -123,9 +123,9 @@ export function $id (idName: string): IvyElement | null {
  * @param element The node contained by this reference, which can be null.
  * @returns 
  */
-export function $ref<T = Element> (element?: T): IvyRef<T> {
+export function $ref (element: HTMLElement | null): IvyRef {
     return {
-        element,
+        element: element ? $(element) : null,
     }
 }
 

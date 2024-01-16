@@ -5,78 +5,78 @@
     "japaneseName": "アグモン",
     "year": 1997,
     "images": {
-      "sprites": [
+      "sprite": [
         {
           "folder": "adventure_02",
-          "fileName": "agumon"
+          "file": "agumon.png"
         },
         {
           "folder": "story",
-          "fileName": "agumon"
+          "file": "agumon.png"
         }
       ],
       "icon": [
         {
           "folder": "adventure_02_ow",
-          "fileName": "agumon"
+          "file": "agumon.png"
         },
         {
           "folder": "championship",
-          "fileName": "agumon"
+          "file": "agumon.png"
         },
         {
           "folder": "d_project",
-          "fileName": "agumon"
+          "file": "agumon.png"
         },
         {
           "folder": "story_ow",
-          "fileName": "agumon"
+          "file": "agumon.png"
         }
       ],
       "bandai": [
         {
           "folder": "bandai",
-          "fileName": "agumon"
+          "file": "agumon.jpg"
         }
       ],
       "digivice": [
         {
           "folder": "digivice_dtector",
-          "fileName": "agumon"
+          "file": "agumon.gif"
         }
       ],
-      "digivice_tall": [
+      "digiviceTall": [
         {
           "folder": "digivice_tall",
-          "fileName": "agumon"
+          "file": "agumon.gif"
         }
       ],
       "toei": [
         {
           "folder": "toei",
-          "fileName": "agumon"
+          "file": "agumon.png"
         }
       ],
-      "vital_bracelet": [
+      "vitalBracelet": [
         {
           "folder": "vital_bracelet",
-          "fileName": "agumon"
+          "file": "agumon.png"
         }
       ],
       "vpet": [
         {
           "folder": "vpet",
-          "fileName": "agumon-1"
+          "file": "agumon-1.gif"
         },
         {
           "folder": "vpet",
-          "fileName": "agumon"
+          "file": "agumon.gif"
         }
       ],
-      "xros_loader": [
+      "xrosLoader": [
         {
           "folder": "xros_loader",
-          "fileName": "agumon"
+          "file": "agumon.png"
         }
       ]
     }
@@ -87,76 +87,76 @@
     "japaneseName": "エアドラモン",
     "year": 1997,
     "images": {
-      "sprites": [
+      "sprite": [
         {
           "folder": "adventure_02",
-          "fileName": "airdramon"
+          "file": "airdramon.png"
         },
         {
           "folder": "story",
-          "fileName": "airdramon"
+          "file": "airdramon.png"
         }
       ],
       "icon": [
         {
           "folder": "adventure_02_ow",
-          "fileName": "airdramon"
+          "file": "airdramon.png"
         },
         {
           "folder": "championship",
-          "fileName": "airdramon"
+          "file": "airdramon.png"
         },
         {
           "folder": "story_ow",
-          "fileName": "airdramon"
+          "file": "airdramon.png"
         }
       ],
       "bandai": [
         {
           "folder": "bandai",
-          "fileName": "airdramon"
+          "file": "airdramon.jpg"
         }
       ],
-      "digivice_tall": [
+      "digiviceTall": [
         {
           "folder": "digivice_tall",
-          "fileName": "airdramon"
+          "file": "airdramon.gif"
         }
       ],
       "digivice": [
         {
           "folder": "digivice_window",
-          "fileName": "airdramon"
+          "file": "airdramon.gif"
         }
       ],
-      "sprites_small": [
+      "spriteSmall": [
         {
           "folder": "monster_s",
-          "fileName": "airdramon"
+          "file": "airdramon.png"
         }
       ],
       "toei": [
         {
           "folder": "toei",
-          "fileName": "airdramon"
+          "file": "airdramon.gif"
         }
       ],
-      "vital_bracelet": [
+      "vitalBracelet": [
         {
           "folder": "vital_bracelet",
-          "fileName": "airdramon"
+          "file": "airdramon.png"
         }
       ],
       "vpet": [
         {
           "folder": "vpet",
-          "fileName": "airdramon"
+          "file": "airdramon.gif"
         }
       ],
-      "xros_loader": [
+      "xrosLoader": [
         {
           "folder": "xros_loader",
-          "fileName": "airdramon"
+          "file": "airdramon.png"
         }
       ]
     }
@@ -167,88 +167,88 @@
     "japaneseName": "エンジェモン",
     "year": 1997,
     "images": {
-      "sprites": [
+      "sprite": [
         {
           "folder": "adventure_02",
-          "fileName": "angemon"
+          "file": "angemon.png"
         },
         {
           "folder": "story",
-          "fileName": "angemon"
+          "file": "angemon.png"
         }
       ],
       "icon": [
         {
           "folder": "adventure_02_ow",
-          "fileName": "angemon"
+          "file": "angemon.png"
         },
         {
           "folder": "championship",
-          "fileName": "angemon"
+          "file": "angemon.png"
         },
         {
           "folder": "d_project",
-          "fileName": "angemon"
+          "file": "angemon.png"
         },
         {
           "folder": "story_ow",
-          "fileName": "angemon"
+          "file": "angemon.png"
         }
       ],
       "bandai": [
         {
           "folder": "bandai",
-          "fileName": "angemon"
+          "file": "angemon.jpg"
         }
       ],
       "digivice": [
         {
           "folder": "digivice_dtector",
-          "fileName": "angemon"
+          "file": "angemon.gif"
         },
         {
           "folder": "digivice_window",
-          "fileName": "angemon"
+          "file": "angemon.gif"
         }
       ],
-      "digivice_tall": [
+      "digiviceTall": [
         {
           "folder": "digivice_tall",
-          "fileName": "angemon"
+          "file": "angemon.gif"
         }
       ],
-      "sprites_small": [
+      "spriteSmall": [
         {
           "folder": "monster_s",
-          "fileName": "angemon"
+          "file": "angemon.png"
         }
       ],
       "toei": [
         {
           "folder": "toei",
-          "fileName": "angemon"
+          "file": "angemon.gif"
         }
       ],
-      "vital_bracelet": [
+      "vitalBracelet": [
         {
           "folder": "vital_bracelet",
-          "fileName": "angemon"
+          "file": "angemon.png"
         }
       ],
       "vpet": [
         {
           "folder": "vpet",
-          "fileName": "angemon-1"
+          "file": "angemon-1.gif"
         },
         {
           "folder": "vpet",
-          "fileName": "angemon"
+          "file": "angemon.gif"
         }
       ],
-      "xros_loader": [
+      "xrosLoader": [
         {
           "folder": "xros_loader",
-          "fileName": "angemon"
+          "file": "angemon.png"
         }
       ]
     }
@@ -259,64 +259,116 @@
     "japaneseName": "トゲモン",
     "year": 1999,
     "images": {
-      "sprites": [
+      "sprite": [
         {
           "folder": "adventure_02",
-          "fileName": "togemon"
+          "file": "togemon.png"
         },
         {
           "folder": "story",
-          "fileName": "togemon"
+          "file": "togemon.png"
         }
       ],
       "icon": [
         {
           "folder": "adventure_02_ow",
-          "fileName": "togemon"
+          "file": "togemon.gif"
         },
         {
           "folder": "championship",
-          "fileName": "togemon"
+          "file": "togemon.png"
         },
         {
           "folder": "story_ow",
-          "fileName": "togemon"
+          "file": "togemon.png"
         }
       ],
       "bandai": [
         {
           "folder": "bandai",
-          "fileName": "togemon"
+          "file": "togemon.jpg"
         }
       ],
-      "digivice_tall": [
+      "digiviceTall": [
         {
           "folder": "digivice_tall",
-          "fileName": "togemon"
+          "file": "togemon.gif"
         }
       ],
       "toei": [
         {
           "folder": "toei",
-          "fileName": "togemon"
+          "file": "togemon.gif"
         }
       ],
-      "vital_bracelet": [
+      "vitalBracelet": [
         {
           "folder": "vital_bracelet",
-          "fileName": "togemon"
+          "file": "togemon.png"
         }
       ],
       "vpet": [
         {
           "folder": "vpet",
-          "fileName": "togemon"
+          "file": "togemon.gif"
         }
       ],
-      "xros_loader": [
+      "xrosLoader": [
         {
           "folder": "xros_loader",
-          "fileName": "togemon"
+          "file": "togemon.png"
+        }
+      ]
+    }
+  },
+  "betamon": {
+    "images": {
+      "sprite": [
+        {
+          "folder": "adventure_02",
+          "file": "betamon.png"
+        },
+        {
+          "folder": "story",
+          "file": "betamon.png"
+        }
+      ],
+      "icon": [
+        {
+          "folder": "adventure_02_ow",
+          "file": "betamon.png"
+        },
+        {
+          "folder": "dm_ver_s",
+          "file": "betamon.png"
+        },
+        {
+          "folder": "story_ow",
+          "file": "betamon.png"
+        }
+      ],
+      "bandai": [
+        {
+          "folder": "bandai",
+          "file": "betamon.jpg"
+        }
+      ],
+      "digivice": [
+        {
+          "folder": "digivice_dtector",
+          "file": "betamon.gif"
+        }
+      ],
+      "toei": [
+        {
+          "folder": "toei",
+          "file": "betamon.gif"
+        }
+      ],
+      "vpet": [
+        {
+          "folder": "vpet",
+          "file": "betamon.gif"
         }
       ]
     }
