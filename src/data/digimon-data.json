@@ -17,6 +17,12 @@
         "japaneseName": "エンジェモン",
         "year": 1997
     },
+    "betamon": {
+        "id": "betamon",
+        "displayName": "Betamon",
+        "japaneseName": "ベタモン",
+        "year": 1997
+    },
     "togemon": {
         "id": "togemon",
         "displayName": "Togemon",

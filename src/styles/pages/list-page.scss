@@ -1,5 +1,9 @@
 @import "../variables";
 
+.page-list {
+    padding: 12px 24px;
+}
+
 .digimon-list-table {
     border-collapse: collapse;
     border: 1px solid #888;
@@ -19,6 +23,24 @@
     }
 
     tbody {
+        .names {
+            .names-container {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+
+                .display-name {
+                    font-weight: $w-semibold;
+                }
+                .jp-name {
+                    font-family: 'MS PGothic';
+                    font-weight: $w-black;
+                }
+            }
+        }
+
         .group-bandai, .group-toei {
             img {
                 max-height: 160px;
@@ -26,7 +48,7 @@
         }
 
         td {
-            padding: 0 10px;
+            padding: 2px 10px;
 
             &:not(.group-bandai):not(.group-toei) {
                 image-rendering: pixelated;

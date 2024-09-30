@@ -253,6 +253,62 @@
       ]
     }
   },
+  "betamon": {
+    "id": "betamon",
+    "displayName": "Betamon",
+    "japaneseName": "ベタモン",
+    "year": 1997,
+    "images": {
+      "sprite": [
+        {
+          "folder": "adventure_02",
+          "file": "betamon.png"
+        },
+        {
+          "folder": "story",
+          "file": "betamon.png"
+        }
+      ],
+      "icon": [
+        {
+          "folder": "adventure_02_ow",
+          "file": "betamon.png"
+        },
+        {
+          "folder": "dm_ver_s",
+          "file": "betamon.png"
+        },
+        {
+          "folder": "story_ow",
+          "file": "betamon.png"
+        }
+      ],
+      "bandai": [
+        {
+          "folder": "bandai",
+          "file": "betamon.jpg"
+        }
+      ],
+      "digivice": [
+        {
+          "folder": "digivice_dtector",
+          "file": "betamon.gif"
+        }
+      ],
+      "toei": [
+        {
+          "folder": "toei",
+          "file": "betamon.gif"
+        }
+      ],
+      "vpet": [
+        {
+          "folder": "vpet",
+          "file": "betamon.gif"
+        }
+      ]
+    }
+  },
   "togemon": {
     "id": "togemon",
     "displayName": "Togemon",
@@ -317,58 +373,6 @@
         {
           "folder": "xros_loader",
           "file": "togemon.png"
-        }
-      ]
-    }
-  },
-  "betamon": {
-    "images": {
-      "sprite": [
-        {
-          "folder": "adventure_02",
-          "file": "betamon.png"
-        },
-        {
-          "folder": "story",
-          "file": "betamon.png"
-        }
-      ],
-      "icon": [
-        {
-          "folder": "adventure_02_ow",
-          "file": "betamon.png"
-        },
-        {
-          "folder": "dm_ver_s",
-          "file": "betamon.png"
-        },
-        {
-          "folder": "story_ow",
-          "file": "betamon.png"
-        }
-      ],
-      "bandai": [
-        {
-          "folder": "bandai",
-          "file": "betamon.jpg"
-        }
-      ],
-      "digivice": [
-        {
-          "folder": "digivice_dtector",
-          "file": "betamon.gif"
-        }
-      ],
-      "toei": [
-        {
-          "folder": "toei",
-          "file": "betamon.gif"
-        }
-      ],
-      "vpet": [
-        {
-          "folder": "vpet",
-          "file": "betamon.gif"
         }
       ]
     }

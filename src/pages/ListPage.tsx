@@ -54,8 +54,10 @@ export default class ListPage extends Page {
         return (
             <tr>
                 <td className="names">
-                    <span className="display-name">{digimon.displayName}</span>
-                    <span className="jp-name">{digimon.japaneseName}</span>
+                    <div className="names-container">
+                        <span className="display-name">{digimon.displayName}</span>
+                        <span className="jp-name">{digimon.japaneseName}</span>
+                    </div>
                 </td>
                 {this.buildDigimonCell("bandai", digimon.images.bandai)}
                 {this.buildDigimonCell("toei", digimon.images.toei)}
